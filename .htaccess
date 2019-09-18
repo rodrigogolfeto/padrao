@@ -1,0 +1,1 @@
+# CONFIGURAR UTILIZAÇÃO DO HTTPSRewriteEngine OnRewriteCond %{SERVER_PORT} 80RewriteRule ^(.*)$ https://sebraeinspira.com.br/$1 [R,L]

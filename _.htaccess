@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?s=$1
+ExpiresActive On
+ExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/jpg A2592000
+ExpiresByType text/javascript A2592000
+ExpiresByType application/javascript A2592000
+ExpiresByType text/css A2592000
+AddType application/octet-stream .pdf
+AddType application/octet-stream .doc
+AddType application/octet-stream .rar
+AddType application/octet-stream .zip
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/javascript
+SetOutputFilter DEFLATE 
+BrowserMatch ^Mozilla/4 gzip-only-text/html 
+BrowserMatch ^Mozilla/4\.0[678] no-gzip 
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html 
+</IfModule>
