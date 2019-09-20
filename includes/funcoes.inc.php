@@ -7,5 +7,6 @@
 	$conn = new Conexao();
 	session_start();
 	$formata= new FormataString();
+	// alterado
 	*/
 ?>
