@@ -1,7 +1,7 @@
 <?php
     $config                     = array();    
-    $config['titleBase']        = 'Projeto';
-    $config['urlSite']          = (($_SERVER['HTTP_HOST'] != 'localhost') ? 'https://' . $_SERVER['HTTP_HOST'] . '/' : 'http://localhost/projeto/');
+    $config['titleBase']        = 'Projeto Padrão';
+    $config['urlSite']          = (($_SERVER['HTTP_HOST'] != 'localhost') ? 'https://' . $_SERVER['HTTP_HOST'] . '/' : 'http://padrao.localhost/');
     $config['descriptionSite']  = "";
     $config['keywordsSite']     = "";
     $config['cacheFiles']       = "";
