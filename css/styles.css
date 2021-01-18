@@ -27,11 +27,11 @@ a:hover { text-decoration: none; }
 
 .color-default { color: var(--color-base); }
 
-.font-10 { font-size:1.5675rem !important; }
-.font-11 { font-size:1.6875rem !important; }
-.font-12 { font-size:1.7825rem !important; }
-.font-13 { font-size:1.8125rem !important; } 
-.font-14 { font-size:1.8750rem !important; }
+.font-10 { font-size:0.5675rem !important; }
+.font-11 { font-size:0.6875rem !important; }
+.font-12 { font-size:0.7825rem !important; }
+.font-13 { font-size:0.8125rem !important; } 
+.font-14 { font-size:0.8750rem !important; }
 .font-16 { font-size:1.0000rem !important; }
 .font-18 { font-size:1.1250rem !important; }
 .font-20 { font-size:1.2500rem !important; }
@@ -63,11 +63,11 @@ a:hover { text-decoration: none; }
 
 @media (min-width: 768px) { /* COL MD */		
 
-	.font-md-10 { font-size:1.5675rem !important; }
-	.font-md-11 { font-size:1.6875rem !important; }
-	.font-md-12 { font-size:1.7825rem !important; }
-	.font-md-13 { font-size:1.8125rem !important; } 
-	.font-md-14 { font-size:1.8750rem !important; }
+	.font-md-10 { font-size:0.5675rem !important; }
+	.font-md-11 { font-size:0.6875rem !important; }
+	.font-md-12 { font-size:0.7825rem !important; }
+	.font-md-13 { font-size:0.8125rem !important; } 
+	.font-md-14 { font-size:0.8750rem !important; }
 	.font-md-16 { font-size:1.0000rem !important; }
 	.font-md-18 { font-size:1.1250rem !important; }
 	.font-md-20 { font-size:1.2500rem !important; }
@@ -80,11 +80,11 @@ a:hover { text-decoration: none; }
 
 @media (min-width: 992px) { /* COL LG */		
 
-	.font-lg-10 { font-size:1.5675rem !important; }
-	.font-lg-11 { font-size:1.6875rem !important; }
-	.font-lg-12 { font-size:1.7825rem !important; }
-	.font-lg-13 { font-size:1.8125rem !important; } 
-	.font-lg-14 { font-size:1.8750rem !important; }
+	.font-lg-10 { font-size:0.5675rem !important; }
+	.font-lg-11 { font-size:0.6875rem !important; }
+	.font-lg-12 { font-size:0.7825rem !important; }
+	.font-lg-13 { font-size:0.8125rem !important; } 
+	.font-lg-14 { font-size:0.8750rem !important; }
 	.font-lg-16 { font-size:1.0000rem !important; }
 	.font-lg-18 { font-size:1.1250rem !important; }
 	.font-lg-20 { font-size:1.2500rem !important; }
@@ -97,11 +97,11 @@ a:hover { text-decoration: none; }
 
 @media (min-width: 1200px){ /* COL XL */	
 
-	.font-xl-10 { font-size:1.5675rem !important; }
-	.font-xl-11 { font-size:1.6875rem !important; }
-	.font-xl-12 { font-size:1.7825rem !important; }
-	.font-xl-13 { font-size:1.8125rem !important; } 
-	.font-xl-14 { font-size:1.8750rem !important; }
+	.font-xl-10 { font-size:0.5675rem !important; }
+	.font-xl-11 { font-size:0.6875rem !important; }
+	.font-xl-12 { font-size:0.7825rem !important; }
+	.font-xl-13 { font-size:0.8125rem !important; } 
+	.font-xl-14 { font-size:0.8750rem !important; }
 	.font-xl-16 { font-size:1.0000rem !important; }
 	.font-xl-18 { font-size:1.1250rem !important; }
 	.font-xl-20 { font-size:1.2500rem !important; }
